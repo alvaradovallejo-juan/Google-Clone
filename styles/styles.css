@@ -33,6 +33,10 @@ nav .nav-right-section a {
     color: #e8eaed;
 }
 
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon {
     background-image: url('https://icon-library.com/images/white-menu-icon/white-menu-icon-4.jpg');
     background-repeat: no-repeat;
@@ -159,4 +163,56 @@ main .main-buttons button {
 main .main-buttons button:hover {
     border: 1px solid #5f6368;
     box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+}
+
+footer .footer-top {
+    width: calc(100% - 60px);
+    height: 17px;
+    position: absolute;
+    bottom: 46px;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #3c4043;
+    color: #9aa0a6;
+    background-color: #171717;
+}
+
+footer .footer-top p {
+    margin: 0;
+}
+
+footer .footer-bottom{
+    width: calc(100% - 40px);
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: #171717;
+    padding: 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    padding: 15px;
+    color: #9aa0a6;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
